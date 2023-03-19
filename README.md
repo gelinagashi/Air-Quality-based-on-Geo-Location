@@ -29,8 +29,8 @@ Vlera e të dhënave: Vlera e treguesit të cilësisë së ajrit për zonën spe
 
 Mesazhi: Informacion ose shënime shtesë në lidhje me matjen e cilësisë së ajrit ose vlerën e të dhënave, nëse është e aplikueshme.
 
-####################################################################################################################################
-   Algoritmet qe do perdoren:
+########################################################################################################
+Algoritmet qe do perdoren:
 1. Decision tree random forect
 2. Forest
 3. Linear Regression
