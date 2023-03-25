@@ -2,8 +2,7 @@
 
 Ky grup të dhënash ofron informacion mbi masat e cilësisë së ajrit për ndotës të ndryshëm si ozoni (O3) dhe dioksidi i squfurit (SO2) në zona të ndryshme në botë.
 Ky grup të dhënash mund të përdoret nga studiues dhe politikëbërës për të kuptuar tendencat në nivelet e ndotjes së ajrit dhe për të informuar ndërhyrjet për të përmirësuar cilësinë e ajrit dhe për të mbrojtur shëndetin publik. Cilësia e ajrit po përkeqësohet në shumë qytete anembanë botës. Rritja e niveleve të ndotjes,
-emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duke pasur parasysh një grup të dhënash të mbikëqyrjes së cilësisë së ajrit, analizoni, 
-vizualizoni dhe krijoni një model për të analizuar cilësinë e ajrit në vendndodhje.
+emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duke pasur parasysh kete grup të dhënash të mbikëqyrjes së cilësisë së ajrit, do të analizohet,  dhe krijohet një model për të analizuar cilësinë e ajrit në vendndodhje.
 
 ID unike: Një identifikues unik i caktuar për çdo rresht në grupin e të dhënave.
 
