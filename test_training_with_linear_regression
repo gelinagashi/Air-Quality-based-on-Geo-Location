@@ -13,3 +13,8 @@ y = data.loc[:, 'Data Value']
 X['Start_Date'] = pd.to_datetime(X['Start_Date']).astype(int64) / 10**9
 # Splitting the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Creating the linear regression model and fitting it to the training data
+model = LinearRegression()
+model.fit(X_train, y_train)
+# Predicting the values for the test data
+y_pred = model.predict(X_test)
