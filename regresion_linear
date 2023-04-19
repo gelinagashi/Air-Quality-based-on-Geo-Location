@@ -12,3 +12,6 @@ data["Start_Date"] = pd.to_datetime(data["Start_Date"], format="%m/%d/%Y")
 
 Remove rows with missing values
 data = data.dropna()
+
+Save the preprocessed dataset to a new CSV file
+data.to_csv('preprocessed_air_quality.csv', index=False)
