@@ -1,3 +1,5 @@
 create testing traning in python using linear regression in this code 
 import pandas as pd
+load the dataset
+data = pd.read_csv("C:/Users/Dell/Desktop/Air_Quality.csv")
 
