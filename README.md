@@ -32,5 +32,4 @@ Mesazhi: Informacion ose shënime shtesë në lidhje me matjen e cilësisë së 
 Algoritmet qe do perdoren:
 1. Decision tree
 2. Random forect
-3. Forest
-4. Linear Regression
+3. Linear Regression
