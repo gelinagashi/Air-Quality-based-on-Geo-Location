@@ -18,3 +18,6 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 # Predicting the values for the test data
 y_pred = model.predict(X_test)
+# Printing the coefficient and intercept of the linear regression model
+print("Coefficient:", model.coef_)
+print("Intercept:", model.intercept_)
