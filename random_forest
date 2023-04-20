@@ -37,3 +37,6 @@ m2.fit(train1, target)
 
 '''AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
                   n_estimators=50, random_state=None)'''
+
+# calculating the score and the score is  96.15377360010211%
+m2.score(train1, target) * 100
