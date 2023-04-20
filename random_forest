@@ -34,3 +34,6 @@ m2 = AdaBoostRegressor()
 
 # Fitting the model
 m2.fit(train1, target)
+
+'''AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)'''
