@@ -2,5 +2,10 @@
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import RandomForestRegressor
 
+# creating model
+m1 = RandomForestRegressor()
 
+# separating class label and other attributes
+train1 = train.drop(['air_quality_index'], axis=1)
+target = train['air_quality_index']
 
