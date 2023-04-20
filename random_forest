@@ -21,3 +21,7 @@ m1.fit(train1, target)
 
 # calculating the score and the score is  97.96360799890066%
 m1.score(train1, target) * 100
+
+# predicting the model with other values (testing the data)
+# so AQI is 123.71
+m1.predict([[123, 45, 67, 34, 5, 0, 23]])
