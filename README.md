@@ -61,3 +61,18 @@ Modeli përdoret për të parashikuar variablin e synuar për grupin e testimit 
 Më në fund, gabimi mesatar në katror shtypet në tastierë.
 
 Në përgjithësi, kodi demonstron përdorimin e scikit-learn për të përpunuar paraprakisht të dhënat, për të ndërtuar një model të regresorit të rastësishëm të pyjeve dhe për të vlerësuar performancën e tij duke përdorur gabimin mesatar në katror. Ky lloj kodi mund të jetë i dobishëm për të analizuar dhe bërë parashikime nga lloje të ndryshme të grupeve të të dhënave.
+
+
+decision_tree------------------------------------------------------
+
+Kodi fillon duke importuar bibliotekat e nevojshme, duke përfshirë pandat, numpy, train_test_split nga sklearn.model_selection, DecisionTreeRegressor nga sklearn.tree dhe mean_squared_error dhe r2_score nga sklearn.metrics.
+Më pas, kodi ngarkon një grup të dhënash të parapërpunuar nga një skedar CSV në një DataFrame panda duke përdorur metodën read_csv.
+Të dhënat më pas përpunohen paraprakisht duke hequr vlerat që mungojnë duke përdorur metodën dropna.
+Veçoritë dhe variablat e synuar më pas ndahen në DataFrames të veçanta X dhe y respektivisht.
+Kolona 'Start_Date' në X konvertohet në një format numerik duke e kthyer atë në një objekt datatime dhe më pas në një format int64 të ndarë me 10^9.
+Të dhënat më pas ndahen në grupe trajnimi dhe testimi duke përdorur train_test_split nga biblioteka sklearn.model_selection.
+Një Regressor i Pemës së Vendimeve krijohet dhe trajnohet duke përdorur të dhënat e trajnimit duke përdorur klasën DecisionTreeRegressor nga biblioteka sklearn.tree.
+Modeli më pas bën parashikime mbi të dhënat e testimit duke përdorur metodën e parashikimit.
+Gabimi mesatar në katror dhe rezultati R2 llogariten më pas për të vlerësuar performancën e modelit duke përdorur mean_squared_error dhe r2_score nga biblioteka sklearn.metrics.
+Më në fund, gabimi mesatar në katror dhe rezultati R2 shtypen në tastierë.
+Në përgjithësi, ky kod tregon se si të ndërtohet një model i thjeshtë Regressor i Pemës së Vendimit për të parashikuar vlerat në një grup të dhënash dhe si të vlerësohet performanca e modelit duke përdorur gabimin mesatar në katror dhe rezultatin R2.
