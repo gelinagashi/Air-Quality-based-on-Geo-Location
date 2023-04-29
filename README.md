@@ -34,7 +34,7 @@ Algoritmet qe do perdoren:
 2. Random forect
 3. Linear Regression
 
-test_taining_with_linear_regerssion
+test_taining_with_linear_regerssion*-----------------------------------------------
 Ky kod kryen një analizë të regresionit linear në një grup të dhënash të cilësisë së ajrit të parapërpunuar. Kodi përdor bibliotekën e pandas për të ngarkuar grupin e të dhënave dhe zgjedh kolonat e nevojshme, të cilat janë data e fillimit dhe vlera e të dhënave. Kolona e datës së fillimit konvertohet në një format numerik, i cili është i nevojshëm për analizën e regresionit.
 
 Biblioteka sklearn përdoret për të ndarë të dhënat në grupe trajnimi dhe testimi. Të dhënat ndahen në një raport 80-20, ku 80% e të dhënave përdoren për trajnim dhe 20% për testim. Më pas krijohet modeli i regresionit linear dhe përshtatet me të dhënat e trajnimit.
@@ -42,3 +42,22 @@ Biblioteka sklearn përdoret për të ndarë të dhënat në grupe trajnimi dhe 
 Modeli përdoret më pas për të parashikuar vlerat për të dhënat e provës, dhe koeficientët dhe ndërprerja e modelit të regresionit linear printohen në tastierë. Së fundi, performanca e modelit vlerësohet duke përdorur gabimin mesatar në katror dhe rezultatin R2.
 
 Në përgjithësi, ky kod tregon se si të kryhet një analizë bazë e regresionit linear në një grup të dhënash duke përdorur Python dhe bibliotekën sklearn. Kodi mund të përshtatet lehtësisht për të punuar me grupe të tjera të dhënash, duke e bërë atë një mjet të dobishëm për analizën e të dhënave dhe mësimin e makinerive.
+
+ramdom_forest----------------------------------------------
+Së pari, bibliotekat e kërkuara importohen, duke përfshirë Pandat për manipulimin e të dhënave, NumPy për llogaritjet numerike dhe scikit-learn për algoritmet e mësimit të makinerive.
+
+Më pas, grupi i të dhënave i parapërpunuar ngarkohet duke përdorur funksionin read_csv të Pandas.
+
+Të dhënat parapërpunohen duke konvertuar kolonën 'Data_Fillimi' në formatin e datës dhe më pas duke krijuar kolona të reja për vitin, muajin dhe ditën. Për më tepër, grupi i të dhënave është i koduar një herë duke përdorur funksionin get_dummies të Pandas.
+
+Veçoritë dhe ndryshorja e synuar ndahen në variabla të veçanta dhe kolona 'Data_Fillimi' konvertohet në një format numerik.
+
+Të dhënat më pas ndahen në grupe trajnimi dhe testimi duke përdorur funksionin train_test_split të scikit-learn.
+
+Një model Random Forest Regressor krijohet duke përdorur klasën RandomForestRegressor të scikit-learn, me 100 pemë dhe një gjendje të rastësishme prej 42, dhe më pas përshtatet me të dhënat e trajnimit.
+
+Modeli përdoret për të parashikuar variablin e synuar për grupin e testimit dhe Gabimi mesatar në katror llogaritet duke përdorur funksionin mean_squared_error të scikit-learn.
+
+Më në fund, gabimi mesatar në katror shtypet në tastierë.
+
+Në përgjithësi, kodi demonstron përdorimin e scikit-learn për të përpunuar paraprakisht të dhënat, për të ndërtuar një model të regresorit të rastësishëm të pyjeve dhe për të vlerësuar performancën e tij duke përdorur gabimin mesatar në katror. Ky lloj kodi mund të jetë i dobishëm për të analizuar dhe bërë parashikime nga lloje të ndryshme të grupeve të të dhënave.
