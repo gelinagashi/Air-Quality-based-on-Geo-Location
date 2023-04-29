@@ -33,8 +33,9 @@ Algoritmet qe do perdoren:
 1. Decision tree
 2. Random forect
 3. Linear Regression
-
-------------------------------FAZA 2------------------------------------------------------------------------------
+*
+*
+*
 test_taining_with_linear_regerssion*-----------------------------------------------
 Ky kod kryen një analizë të regresionit linear në një grup të dhënash të cilësisë së ajrit të parapërpunuar. Kodi përdor bibliotekën e pandas për të ngarkuar grupin e të dhënave dhe zgjedh kolonat e nevojshme, të cilat janë data e fillimit dhe vlera e të dhënave. Kolona e datës së fillimit konvertohet në një format numerik, i cili është i nevojshëm për analizën e regresionit.
 
