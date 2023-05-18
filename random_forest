@@ -1,5 +1,6 @@
 import pandas as pd
 from numpy import int64
+from pyexpat import features
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
@@ -11,18 +12,27 @@ data['Start_Date'] = pd.to_datetime(data['Start_Date'])
 data['year'] = data['Start_Date'].dt.year
 data['month'] = data['Start_Date'].dt.month
 data['day'] = data['Start_Date'].dt.day
+#Te dhenat kolonat i merr si te dhena
 data = pd.get_dummies(data, columns=['Name', 'Geo Type Name', 'Geo Place Name', 'Time Period'])
-# Split the dataset into features and target variable
+# Split the dataset into features and target variable-largon vlerat e paplocuara
 X = data.drop('Data Value', axis=1)
 # Converting the 'Start_Date' column to a numerical format
 X['Start_Date'] = pd.to_datetime(X['Start_Date']).astype(int64) / 10**9
 y = data['Data Value']
-# Split the dataset into train and test sets
+# Split the dataset into train and test sets- i run ne 4 variabla rez masi thirret train test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-# Train a Random Forest Regressor
+# Train a Random Forest Regressor-vendosen vlerat pasi i kemi mar nga train test split
 model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 # Make predictions and evaluate the model
 y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
+print('The shape of our features is:', data.shape)
+
+# Descriptive statistics for each column
+desc_stats = data.describe()
+# Print the table of columns
+print("Table of columns:")
+for col in desc_stats.columns:
+    print(f"{col}")
