@@ -84,3 +84,4 @@ Modeli më pas bën parashikime mbi të dhënat e testimit duke përdorur metod�
 Gabimi mesatar në katror dhe rezultati R2 llogariten më pas për të vlerësuar performancën e modelit duke përdorur mean_squared_error dhe r2_score nga biblioteka sklearn.metrics.
 Më në fund, gabimi mesatar në katror dhe rezultati R2 shtypen në tastierë.
 Në përgjithësi, ky kod tregon se si të ndërtohet një model i thjeshtë Regressor i Pemës së Vendimit për të parashikuar vlerat në një grup të dhënash dhe si të vlerësohet performanca e modelit duke përdorur gabimin mesatar në katror dhe rezultatin R2.
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
