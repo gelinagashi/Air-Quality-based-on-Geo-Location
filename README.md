@@ -28,14 +28,12 @@ Vlera e të dhënave: Vlera e treguesit të cilësisë së ajrit për zonën spe
 
 Mesazhi: Informacion ose shënime shtesë në lidhje me matjen e cilësisë së ajrit ose vlerën e të dhënave, nëse është e aplikueshme.
 
-Algoritmet qe do perdoren:
+#Algoritmet qe do perdoren:
 1. Decision tree
 2. Random forect
 3. Linear Regression
-*
-*
-*
-test_taining_with_linear_regerssion*-----------------------------------------------
+
+##test_taining_with_linear_regerssion
 Ky kod kryen një analizë të regresionit linear në një grup të dhënash të cilësisë së ajrit të parapërpunuar. Kodi përdor bibliotekën e pandas për të ngarkuar grupin e të dhënave dhe zgjedh kolonat e nevojshme, të cilat janë data e fillimit dhe vlera e të dhënave. Kolona e datës së fillimit konvertohet në një format numerik, i cili është i nevojshëm për analizën e regresionit.
 
 Biblioteka sklearn përdoret për të ndarë të dhënat në grupe trajnimi dhe testimi. Të dhënat ndahen në një raport 80-20, ku 80% e të dhënave përdoren për trajnim dhe 20% për testim. Më pas krijohet modeli i regresionit linear dhe përshtatet me të dhënat e trajnimit.
@@ -44,7 +42,7 @@ Modeli përdoret më pas për të parashikuar vlerat për të dhënat e provës,
 
 Në përgjithësi, ky kod tregon se si të kryhet një analizë bazë e regresionit linear në një grup të dhënash duke përdorur Python dhe bibliotekën sklearn. Kodi mund të përshtatet lehtësisht për të punuar me grupe të tjera të dhënash, duke e bërë atë një mjet të dobishëm për analizën e të dhënave dhe mësimin e makinerive.
 
-REZULTATET:
+##REZULTATET:
 *Coefficient: [-2.75440897e-08]
 *Intercept: 57.18908890792791
 *Mean Squared Error: 409.33047279103437
