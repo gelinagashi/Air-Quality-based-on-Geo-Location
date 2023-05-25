@@ -68,7 +68,7 @@ Më në fund, gabimi mesatar në katror shtypet në tastierë.
 Në përgjithësi, kodi demonstron përdorimin e scikit-learn për të përpunuar paraprakisht të dhënat, për të ndërtuar një model të regresorit të rastësishëm të pyjeve dhe për të vlerësuar performancën e tij duke përdorur gabimin mesatar në katror. Ky lloj kodi mund të jetë i dobishëm për të analizuar dhe bërë parashikime nga lloje të ndryshme të grupeve të të dhënave.
 
 
-decision_tree------------------------------------------------------
+## Decision_tree
 
 Kodi fillon duke importuar bibliotekat e nevojshme, duke përfshirë pandat, numpy, train_test_split nga sklearn.model_selection, DecisionTreeRegressor nga sklearn.tree dhe mean_squared_error dhe r2_score nga sklearn.metrics.
 Më pas, kodi ngarkon një grup të dhënash të parapërpunuar nga një skedar CSV në një DataFrame panda duke përdorur metodën read_csv.
