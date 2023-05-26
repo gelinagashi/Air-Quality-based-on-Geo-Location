@@ -85,5 +85,9 @@ Në përgjithësi, ky kod tregon se si të ndërtohet një model i thjeshtë Reg
 ### Vizualizimi_linearRegression
 Kodi kryen analizën e regresionit linear për të parashikuar cilësinë e ajrit bazuar në veçorinë 'Start_Date' dhe vlerëson performancën e modelit duke përdorur gabimin mesatar në katror dhe R-katror. Ai gjithashtu ofron vizualizime të vlerave aktuale kundrejt atyre të parashikuara dhe mbetjeve.
 
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/8e87a53b-5530-4771-85bd-a91f51ffe7a0)
 
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/f7913685-e745-4c54-9ede-834e56b91392)
+
+-----------------
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
