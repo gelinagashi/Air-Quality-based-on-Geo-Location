@@ -89,5 +89,10 @@ Kodi kryen analizën e regresionit linear për të parashikuar cilësinë e ajri
 
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/f7913685-e745-4c54-9ede-834e56b91392)
 
+### Vizualizimi_random_forest
+Rezultatet e kodit ofrojnë njohuri mbi performancën e modelit Random Forest Regressor, formën e grupit të të dhënave, statistikat përshkruese për çdo veçori dhe rëndësinë e veçorive të ndryshme në parashikimin e cilësisë së ajrit.
+
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/22915882-02e9-46c5-86fd-507941b3bdc3)
+
 -----------------
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
