@@ -85,6 +85,14 @@ Në përgjithësi, ky kod tregon se si të ndërtohet një model i thjeshtë Reg
 ### Vizualizimi_linearRegression
 Kodi kryen analizën e regresionit linear për të parashikuar cilësinë e ajrit bazuar në veçorinë 'Start_Date' dhe vlerëson performancën e modelit duke përdorur gabimin mesatar në katror dhe R-katror. Ai gjithashtu ofron vizualizime të vlerave aktuale kundrejt atyre të parashikuara dhe mbetjeve.
 
+Gabimi mesatar në katror (MSE): MSE është një masë e diferencës mesatare në katror midis vlerave të parashikuara dhe atyre aktuale. Ai përcakton cilësinë e përgjithshme të parashikimeve. Vlera specifike MSE e marrë nga analiza ruhet në "Rezultatet" DataFrame.
+
+Rezultati R2: Rezultati R2, i njohur gjithashtu si koeficienti i përcaktimit, tregon përqindjen e variancës në variablin e synuar (cilësinë e ajrit) që mund të shpjegohet me modelin e regresionit linear. Ai varion nga 0 në 1, ku 1 tregon një përshtatje të përsosur. Rezultati R2 i marrë nga analiza ruhet në DataFrame 'rezultatet'.
+
+Rezultatet ofrojnë njohuri mbi performancën dhe saktësinë e modelit të regresionit linear në parashikimin e cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Gabimi mesatar në katror përfaqëson gabimin mesatar të parashikimit, ndërsa rezultati R2 tregon mirësinë e përshtatjes së modelit. Vlerat më të ulëta të MSE dhe rezultatet më të larta R2 sugjerojnë performancë më të mirë të modelit, duke treguar se modeli i regresionit linear është efektiv në kapjen e marrëdhënies midis 'Start_Date' dhe cilësisë së ajrit.
+
+Këto rezultate mund të përdoren për të vlerësuar besueshmërinë e modelit të regresionit linear dhe për të përcaktuar përshtatshmërinë e tij për parashikimin e cilësisë së ajrit bazuar në të dhënat e dhëna.
+
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/8e87a53b-5530-4771-85bd-a91f51ffe7a0)
 
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/f7913685-e745-4c54-9ede-834e56b91392)
