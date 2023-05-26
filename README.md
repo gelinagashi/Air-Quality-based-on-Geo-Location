@@ -74,7 +74,7 @@ Kodi fillon duke importuar bibliotekat e nevojshme, duke përfshirë pandat, num
 Më pas, kodi ngarkon një grup të dhënash të parapërpunuar nga një skedar CSV në një DataFrame panda duke përdorur metodën read_csv.
 Të dhënat më pas përpunohen paraprakisht duke hequr vlerat që mungojnë duke përdorur metodën dropna.
 Veçoritë dhe variablat e synuar më pas ndahen në DataFrames të veçanta X dhe y respektivisht.
-Kolona 'Start_Date' në X konvertohet në një format numerik duke e kthyer atë në një objekt datatime dhe më pas në një format int64 të ndarë me 10^9.
+ - Kolona 'Start_Date' në X konvertohet në një format numerik duke e kthyer atë në një objekt datatime dhe më pas në një format int64 të ndarë me 10^9.
 Të dhënat më pas ndahen në grupe trajnimi dhe testimi duke përdorur train_test_split nga biblioteka sklearn.model_selection.
 Një Regressor i Pemës së Vendimeve krijohet dhe trajnohet duke përdorur të dhënat e trajnimit duke përdorur klasën DecisionTreeRegressor nga biblioteka sklearn.tree.
 Modeli më pas bën parashikime mbi të dhënat e testimit duke përdorur metodën e parashikimit.
@@ -100,16 +100,18 @@ Këto rezultate mund të përdoren për të vlerësuar besueshmërinë e modelit
 ### Vizualizimi_random_forest
 Rezultatet e kodit ofrojnë njohuri mbi performancën e modelit Random Forest Regressor, formën e grupit të të dhënave, statistikat përshkruese për çdo veçori dhe rëndësinë e veçorive të ndryshme në parashikimin e cilësisë së ajrit.
 
+ - Kodi ngarkon dhe përpunon paraprakisht grupin e të dhënave të cilësisë së ajrit, trajnon një model Regresor të Random Forest, vlerëson performancën e tij duke përdorur gabimin mesatar në katror, ofron statistika përshkruese për grupin e të dhënave dhe vizualizon rëndësinë e veçorive.
+
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/22915882-02e9-46c5-86fd-507941b3bdc3)
 
 ### Vizualizimi_decision_tree
 Kodi krijon një rezultat të quajtur DataFrame që përmban 'Start_Date', 'Vlera e të dhënave' aktuale dhe 'Vlera e të dhënave' e parashikuar për grupin e testimit. Kjo tabelë lejon një krahasim të drejtpërdrejtë midis vlerave aktuale dhe atyre të parashikuara.
 
-Scatter Plot: Kodi gjeneron një grafik shpërndarjeje për të vizualizuar marrëdhënien midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe 'Vlera e të Dhënave' paraqitet në boshtin y. Vlerat aktuale përfaqësohen me pika blu, dhe vlerat e parashikuara përfaqësohen me pika të kuqe. Kjo skemë ndihmon në vlerësimin e saktësisë së parashikimeve të modelit.
+ - Scatter Plot: Kodi gjeneron një grafik shpërndarjeje për të vizualizuar marrëdhënien midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe 'Vlera e të Dhënave' paraqitet në boshtin y. Vlerat aktuale përfaqësohen me pika blu, dhe vlerat e parashikuara përfaqësohen me pika të kuqe. Kjo skemë ndihmon në vlerësimin e saktësisë së parashikimeve të modelit.
 
-Krijohet një parcelë e mbetur për të analizuar ndryshimet midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe mbetjet (mospërputhjet midis vlerave aktuale dhe atyre të parashikuara) vizatohen në boshtin y. Komploti përfshin një vijë horizontale të ndërprerë të kuqe që përfaqëson vijën zero të mbetur. Grafikët e mbetur ndihmojnë në identifikimin e çdo modeli ose paragjykimi në parashikimet e modelit.
+ - Krijohet një parcelë e mbetur për të analizuar ndryshimet midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe mbetjet (mospërputhjet midis vlerave aktuale dhe atyre të parashikuara) vizatohen në boshtin y. Komploti përfshin një vijë horizontale të ndërprerë të kuqe që përfaqëson vijën zero të mbetur. Grafikët e mbetur ndihmojnë në identifikimin e çdo modeli ose paragjykimi në parashikimet e modelit.
 
-Këto rezultate ofrojnë njohuri mbi performancën dhe saktësinë e modelit Decision Tree në parashikimin e vlerave të cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Duke ekzaminuar tabelën e rezultateve, grafikun e shpërndarjes dhe grafikun e mbetur, mund të vlerësoni efektivitetin e modelit dhe të identifikoni çdo fushë të mundshme për përmirësim.
+ - Këto rezultate ofrojnë njohuri mbi performancën dhe saktësinë e modelit Decision Tree në parashikimin e vlerave të cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Duke ekzaminuar tabelën e rezultateve, grafikun e shpërndarjes dhe grafikun e mbetur, mund të vlerësoni efektivitetin e modelit dhe të identifikoni çdo fushë të mundshme për përmirësim.
 
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/9b66f8b2-3f0a-45d1-97e3-31f2c8526f27)
