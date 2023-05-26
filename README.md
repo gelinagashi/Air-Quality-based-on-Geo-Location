@@ -94,5 +94,13 @@ Rezultatet e kodit ofrojnë njohuri mbi performancën e modelit Random Forest Re
 
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/22915882-02e9-46c5-86fd-507941b3bdc3)
 
------------------
+### Vizualizimi_decision_tree
+Kodi krijon një rezultat të quajtur DataFrame që përmban 'Start_Date', 'Vlera e të dhënave' aktuale dhe 'Vlera e të dhënave' e parashikuar për grupin e testimit. Kjo tabelë lejon një krahasim të drejtpërdrejtë midis vlerave aktuale dhe atyre të parashikuara.
+
+Scatter Plot: Kodi gjeneron një grafik shpërndarjeje për të vizualizuar marrëdhënien midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe 'Vlera e të Dhënave' paraqitet në boshtin y. Vlerat aktuale përfaqësohen me pika blu, dhe vlerat e parashikuara përfaqësohen me pika të kuqe. Kjo skemë ndihmon në vlerësimin e saktësisë së parashikimeve të modelit.
+
+Këto rezultate ofrojnë njohuri mbi performancën dhe saktësinë e modelit Decision Tree në parashikimin e vlerave të cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Duke ekzaminuar tabelën e rezultateve, grafikun e shpërndarjes dhe grafikun e mbetur, mund të vlerësoni efektivitetin e modelit dhe të identifikoni çdo fushë të mundshme për përmirësim.
+
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/9b66f8b2-3f0a-45d1-97e3-31f2c8526f27)
+
