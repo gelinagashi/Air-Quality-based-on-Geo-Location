@@ -4,7 +4,7 @@ Ky grup të dhënash ofron informacion mbi masat e cilësisë së ajrit për ndo
 Ky grup të dhënash mund të përdoret nga studiues dhe politikëbërës për të kuptuar tendencat në nivelet e ndotjes së ajrit dhe për të informuar ndërhyrjet për të përmirësuar cilësinë e ajrit dhe për të mbrojtur shëndetin publik. Cilësia e ajrit po përkeqësohet në shumë qytete anembanë botës. Rritja e niveleve të ndotjes,
 emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duke pasur parasysh kete grup të dhënash të mbikëqyrjes së cilësisë së ajrit, do të analizohet,  dhe krijohet një model për të analizuar cilësinë e ajrit në vendndodhje.
 
-* ID unike:* Një identifikues unik i caktuar për çdo rresht në grupin e të dhënave.
+* ID unike: * Një identifikues unik i caktuar për çdo rresht në grupin e të dhënave.
 
 * ID e treguesit:* Një kod i caktuar për çdo tregues ose masë të cilësisë së ajrit që gjurmohet.
 
@@ -34,13 +34,13 @@ emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duk
 3. Linear Regression
 
 ## test_taining_with_linear_regerssion
-Ky kod kryen një analizë të regresionit linear në një grup të dhënash të cilësisë së ajrit të parapërpunuar. Kodi përdor bibliotekën e pandas për të ngarkuar grupin e të dhënave dhe zgjedh kolonat e nevojshme, të cilat janë data e fillimit dhe vlera e të dhënave. Kolona e datës së fillimit konvertohet në një format numerik, i cili është i nevojshëm për analizën e regresionit.
+* Ky kod kryen një analizë të regresionit linear në një grup të dhënash të cilësisë së ajrit të parapërpunuar. Kodi përdor bibliotekën e pandas për të ngarkuar grupin e të dhënave dhe zgjedh kolonat e nevojshme, të cilat janë data e fillimit dhe vlera e të dhënave. Kolona e datës së fillimit konvertohet në një format numerik, i cili është i nevojshëm për analizën e regresionit. *
 
-Biblioteka sklearn përdoret për të ndarë të dhënat në grupe trajnimi dhe testimi. Të dhënat ndahen në një raport 80-20, ku 80% e të dhënave përdoren për trajnim dhe 20% për testim. Më pas krijohet modeli i regresionit linear dhe përshtatet me të dhënat e trajnimit.
+ * Biblioteka sklearn përdoret për të ndarë të dhënat në grupe trajnimi dhe testimi. Të dhënat ndahen në një raport 80-20, ku 80% e të dhënave përdoren për trajnim dhe 20% për testim. Më pas krijohet modeli i regresionit linear dhe përshtatet me të dhënat e trajnimit. *
 
-Modeli përdoret më pas për të parashikuar vlerat për të dhënat e provës, dhe koeficientët dhe ndërprerja e modelit të regresionit linear printohen në tastierë. Së fundi, performanca e modelit vlerësohet duke përdorur gabimin mesatar në katror dhe rezultatin R2.
+* Modeli përdoret më pas për të parashikuar vlerat për të dhënat e provës, dhe koeficientët dhe ndërprerja e modelit të regresionit linear printohen në tastierë. Së fundi, performanca e modelit vlerësohet duke përdorur gabimin mesatar në katror dhe rezultatin R2. *
 
-Në përgjithësi, ky kod tregon se si të kryhet një analizë bazë e regresionit linear në një grup të dhënash duke përdorur Python dhe bibliotekën sklearn. Kodi mund të përshtatet lehtësisht për të punuar me grupe të tjera të dhënash, duke e bërë atë një mjet të dobishëm për analizën e të dhënave dhe mësimin e makinerive.
+* Në përgjithësi, ky kod tregon se si të kryhet një analizë bazë e regresionit linear në një grup të dhënash duke përdorur Python dhe bibliotekën sklearn. Kodi mund të përshtatet lehtësisht për të punuar me grupe të tjera të dhënash, duke e bërë atë një mjet të dobishëm për analizën e të dhënave dhe mësimin e makinerive. *
 
 ## REZULTATET:
 *Coefficient: [-2.75440897e-08]
