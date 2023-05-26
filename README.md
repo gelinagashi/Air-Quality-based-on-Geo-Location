@@ -43,10 +43,10 @@ emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duk
 * Në përgjithësi, ky kod tregon se si të kryhet një analizë bazë e regresionit linear në një grup të dhënash duke përdorur Python dhe bibliotekën sklearn. Kodi mund të përshtatet lehtësisht për të punuar me grupe të tjera të dhënash, duke e bërë atë një mjet të dobishëm për analizën e të dhënave dhe mësimin e makinerive.
 
 ## REZULTATET:
-** Coefficient: [-2.75440897e-08]
-** Intercept: 57.18908890792791
-** Mean Squared Error: 409.33047279103437
-** R2 Score: 0.027400427668851424
+** Coefficient: [-2.75440897e-08] *
+** Intercept: 57.18908890792791 *
+** Mean Squared Error: 409.33047279103437 *
+** R2 Score: 0.027400427668851424 *
 
 ## Ramdom_forest
 * Së pari, bibliotekat e kërkuara importohen, duke përfshirë Pandat për manipulimin e të dhënave, NumPy për llogaritjet numerike dhe scikit-learn për algoritmet e mësimit të makinerive.
