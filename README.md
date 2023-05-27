@@ -47,6 +47,8 @@ emetimet industriale dhe faktorë të tjerë kontribuojnë në këtë efekt. Duk
 2. Intercept: 57.18908890792791
 3. Mean Squared Error: 409.33047279103437
 4. R2 Score: 0.027400427668851424
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/3c2ea5be-8f2c-412f-bd5f-23409f5b6657)
+![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/f2adea54-b1f7-4f73-9376-7526dfd0d969)
 
 ## Ramdom_forest
 * Së pari, bibliotekat e kërkuara importohen, duke përfshirë Pandat për manipulimin e të dhënave, NumPy për llogaritjet numerike dhe scikit-learn për algoritmet e mësimit të makinerive.
