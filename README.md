@@ -110,7 +110,7 @@ Kodi krijon një rezultat të quajtur DataFrame që përmban 'Start_Date', 'Vler
 
  - Krijohet një parcelë e mbetur për të analizuar ndryshimet midis vlerave aktuale dhe atyre të parashikuara. 'Start_Date' paraqitet në boshtin x dhe mbetjet (mospërputhjet midis vlerave aktuale dhe atyre të parashikuara) vizatohen në boshtin y. Komploti përfshin një vijë horizontale të ndërprerë të kuqe që përfaqëson vijën zero të mbetur. Grafikët e mbetur ndihmojnë në identifikimin e çdo modeli ose paragjykimi në parashikimet e modelit.
 
- - Këto rezultate ofrojnë njohuri mbi performancën dhe saktësinë e modelit Decision Tree në parashikimin e vlerave të cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Duke ekzaminuar tabelën e rezultateve, grafikun e shpërndarjes dhe grafikun e mbetur, mund të vlerësoni efektivitetin e modelit dhe të identifikoni çdo fushë të mundshme për përmirësim.
+ - Këto rezultate ofrojnë njohuri mbi performancën dhe saktësinë e modelit Decision Tree në parashikimin e vlerave të cilësisë së ajrit bazuar në veçorinë 'Start_Date'. Duke ekzaminuar tabelën e rezultateve, grafikun e shpërndarjes dhe grafikun e mbetur, mund të vlerësojme efektivitetin e modelit dhe të identifikoni çdo fushë të mundshme për përmirësim.
 
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/25957526/08adf85e-2d68-45ef-977a-abf36d719b00)
 ![image](https://github.com/gelinagashi/Air-Quality-based-on-Geo-Location/assets/119263143/9b66f8b2-3f0a-45d1-97e3-31f2c8526f27)
